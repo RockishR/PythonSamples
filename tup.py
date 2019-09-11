@@ -23,3 +23,7 @@ if __name__ == '__main__':
         'TASI': 120.9
     }) == 'TASI', "Second"
     print("Coding complete? Click 'Check' to earn cool rewards!")
+
+
+t=("left", "right", "left", "stop")
+print("".join([i+',' for i in t]).replace('right','left'))

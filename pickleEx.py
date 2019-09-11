@@ -5,9 +5,6 @@ def storeData():
 	o1 = {'abc':111,'xyz':222} 
 	o2 = {'abc':333,'xyz':444} 
 
-
-
-
 	db = {} 
 	db['o1'] = o1 
 	db['o2'] = o2 
