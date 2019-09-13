@@ -63,5 +63,10 @@ def checkio(text: str) -> str:
 
     result = [item for items, c in Counter(ini_list).most_common()  for item in [items] * c]
 
+
+    print( "HHH".replace('HH','H'))
+
+
+
 if __name__=="__main__":
     main();
