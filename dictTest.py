@@ -1,4 +1,5 @@
 from collections import OrderedDict
+from itertools import chain
 
 dictOfName = {
    7 : 'sam',
@@ -13,3 +14,11 @@ dictOfNames = OrderedDict(dictOfName)
 newDict = dict(filter(lambda elem: len(elem[1]) == 6,dictOfNames.items()))
 print('Filtered Dictionary : ')
 print(newDict)
+
+d2 = { "d222":222, "d2222":2222}
+d3 = { "d333":333, "d3333":3333}
+
+print({**d2,**d3,**newDict})
+print({ i:j for i,j in chain(d2.items(),d3.items(),newDict.items())})
+
+
