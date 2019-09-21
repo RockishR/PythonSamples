@@ -30,3 +30,16 @@ if __name__ == '__main__':
     assert is_stressful("I neeed HELP") == True, "Second"
     is_stressful('HI HOW ARE YOU?')
     print('Done! Go Check it!')
+
+
+
+# integers
+a = 10
+b = 20
+c = a
+
+
+print(id(a))
+print(id(b))    
+print(id(c))    
+print(id(10))    

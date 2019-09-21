@@ -66,6 +66,7 @@ def checkio(text: str) -> str:
 
     print( "HHH".replace('HH','H'))
 
+    
 
 
 if __name__=="__main__":
